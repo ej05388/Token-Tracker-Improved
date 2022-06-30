@@ -54,9 +54,9 @@ View controllers will often have "@IBOutlet var" These @IBOutlet var connect the
   handleSignOut()
 }
 ```
-***Note: for each viewControllerSwiftFile, I will give in line comments to explain what each line of code does.***
+***Note: for each viewControllerSwiftFile, there are in-line comments to explain what each line of code does.***
 
-***In HomeViewController, I gave detailed comments of the code. Read through HomeViewController before trying to read and understand other files because once you read that file, it will be much easier to read the other files.***
+***In HomeViewController, there are detailed comments about the code. Read through HomeViewController before trying to read and understand other files because once you read HomeViewController, it will be much easier to understand other files.***
 
 ## Assets.xcassets folder:
 This folder contains all the images for the app. 
