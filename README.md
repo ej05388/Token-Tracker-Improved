@@ -55,6 +55,7 @@ View controllers will often have "@IBOutlet var" These @IBOutlet var connect the
 }
 ```
 ***Note: for each viewControllerSwiftFile, I will give in line comments to explain what each line of code does.***
+
 ***In HomeViewController, I gave detailed comments of the code. Read through HomeViewController before trying to read and understand other files because once you read that file, it will be much easier to read the other files.***
 
 ## Assets.xcassets folder:
