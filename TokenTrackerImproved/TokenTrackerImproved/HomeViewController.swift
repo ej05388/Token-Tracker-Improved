@@ -40,7 +40,7 @@ struct Extratags: Decodable {
     }
 }
 
-class SpeedViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     // Outlets
     @IBOutlet var currentSpeed: UILabel!
@@ -306,7 +306,7 @@ class SpeedViewController: UIViewController {
     }
 }
 
-extension SpeedViewController: CLLocationManagerDelegate {
+extension HomeViewController: CLLocationManagerDelegate {
     
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

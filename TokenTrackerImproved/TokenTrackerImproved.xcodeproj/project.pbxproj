@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E5669B366CA56A5C1580555 /* Pods_TokenTrackerImproved.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CEA6DCA4C4E6D33FD01AF7 /* Pods_TokenTrackerImproved.framework */; };
 		FE3E4B3D28636D4700D0009F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E4B3C28636D4600D0009F /* Utilities.swift */; };
-		FE3E4B3F28636D5E00D0009F /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E4B3E28636D5E00D0009F /* SpeedViewController.swift */; };
+		FE3E4B3F28636D5E00D0009F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E4B3E28636D5E00D0009F /* HomeViewController.swift */; };
 		FE3E4B4128636DEA00D0009F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3E4B4028636DEA00D0009F /* CoreLocation.framework */; };
 		FE3E4B4628636FA800D0009F /* Speed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3E4B4528636FA700D0009F /* Speed.storyboard */; };
 		FE69E6A3286375F5006402FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE69E6A2286375F5006402FF /* GoogleService-Info.plist */; };
@@ -31,7 +31,7 @@
 		46CEA6DCA4C4E6D33FD01AF7 /* Pods_TokenTrackerImproved.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenTrackerImproved.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A04FB7C4CFA0EFA5FF6506 /* Pods-TokenTrackerImproved.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenTrackerImproved.release.xcconfig"; path = "Target Support Files/Pods-TokenTrackerImproved/Pods-TokenTrackerImproved.release.xcconfig"; sourceTree = "<group>"; };
 		FE3E4B3C28636D4600D0009F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../TokenTracker/TokenTracker/Utilities.swift; sourceTree = "<group>"; };
-		FE3E4B3E28636D5E00D0009F /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
+		FE3E4B3E28636D5E00D0009F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FE3E4B4028636DEA00D0009F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FE3E4B4528636FA700D0009F /* Speed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Speed.storyboard; sourceTree = "<group>"; };
 		FE69E6A2286375F5006402FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../TokenTracker/TokenTracker/Configure/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				FE3E4B4228636EF600D0009F /* Log In & Sign In */,
 				FE3E4B3C28636D4600D0009F /* Utilities.swift */,
 				FEC1F0B8286229340035B09D /* Assets.xcassets */,
-				FE3E4B3E28636D5E00D0009F /* SpeedViewController.swift */,
+				FE3E4B3E28636D5E00D0009F /* HomeViewController.swift */,
 				FE3E4B4528636FA700D0009F /* Speed.storyboard */,
 			);
 			path = TokenTrackerImproved;
@@ -262,7 +262,7 @@
 				FEC1F0B2286229320035B09D /* SceneDelegate.swift in Sources */,
 				FE88604B286B5B0600855F51 /* FirstViewController.swift in Sources */,
 				FEC1F0CC286230B80035B09D /* TitleScreenViewController.swift in Sources */,
-				FE3E4B3F28636D5E00D0009F /* SpeedViewController.swift in Sources */,
+				FE3E4B3F28636D5E00D0009F /* HomeViewController.swift in Sources */,
 				FE3E4B3D28636D4700D0009F /* Utilities.swift in Sources */,
 				FEC1F0D0286231040035B09D /* SignUpViewController.swift in Sources */,
 			);
