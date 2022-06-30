@@ -14,7 +14,6 @@ class Utilities: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     func boarderOnButton(button: UIButton) {
@@ -45,7 +44,6 @@ class Utilities: UIViewController {
     }
     
     func removeError (label: UILabel) {
-        //label.font = label.font.withSize(1)
         label.textColor = UIColor.white
     }
 
@@ -55,17 +53,17 @@ class Utilities: UIViewController {
     }
     
     func goToHomeScreen(theView: UIView) {
-        let storyBoard = UIStoryboard(name: "Speed", bundle: nil)
+        let storyBoard = UIStoryboard(name: "Home", bundle: nil)
         let vc = storyBoard.instantiateViewController(withIdentifier: "speedVC")
         theView.window?.rootViewController = vc
         theView.window?.makeKeyAndVisible()
-        
-//        let story = UIStoryboard(name: "Home", bundle:nil)
-//        let vc = story.instantiateViewController(withIdentifier: "homeVC") as! NewViewController
-//        UIApplication.shared.windows.first?.rootViewController = vc
-//        UIApplication.shared.windows.first?.makeKeyAndVisible()
-        
-
+    }
+    
+    func goToTitleScreen(theView: UIView) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "NavCon")
+        theView.window?.rootViewController = vc
+        theView.window?.makeKeyAndVisible()
     }
     
     /*

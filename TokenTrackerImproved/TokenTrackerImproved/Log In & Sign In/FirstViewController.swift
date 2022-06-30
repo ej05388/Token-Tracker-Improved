@@ -13,31 +13,23 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Checks if user is logged in
         authenticateUserAndConfigureView()
-        
-        // Do any additional setup after loading the view.
+
     }
     
     func authenticateUserAndConfigureView() {
-        if Auth.auth().currentUser != nil {
+        
+        if Auth.auth().currentUser != nil { // If user is logged in, go to Home screen
             DispatchQueue.main.async {
                 Utilities().goToHomeScreen(theView: self.view)
             }
-        } else {
+        } else { // if user is not logged in, go to Title Screen
             DispatchQueue.main.async {
                 Utilities().goToTitleScreen(theView: self.view)
             }
             
         }
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

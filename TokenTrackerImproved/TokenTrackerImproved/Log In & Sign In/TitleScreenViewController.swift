@@ -6,18 +6,16 @@
 //
 
 import UIKit
-import Firebase
 
 class TitleScreenViewController: UIViewController {
 
+    // Outlet
     @IBOutlet var SignUpButton: UIButton!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //authenticateUserAndConfigureView()
-        
+
+        // Configure SignupButton
         SignUpButton.layer.borderWidth = 1
         SignUpButton.layer.borderColor = UIColor.white.cgColor
         // Do any additional setup after loading the view.
