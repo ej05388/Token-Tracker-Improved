@@ -36,8 +36,6 @@ This file is a generic file where I stored common functions such as creating boa
 ## Home Storyboard and Home ViewControllerSwiftFile:
 The home storyboard is where the Home view controller is located. The Home view controller displays the user’s speed and the speed limit of the street. The HomeViewController is the swift code that does the backend for the view controller such as parsing API’s to determine the speed limit of the road. 
 
-***Note: for each viewControllerSwiftFile, I will give in line comments to explain what each line of code does.***
-
 ## View Controllers Structure
 Each view controller will contain "override func viewDidLoad()" This is the main function of each viewControllerSwiftFile. From this function, all other functions will be called.
 ```
@@ -56,7 +54,8 @@ View controllers will often have "@IBOutlet var" These @IBOutlet var connect the
   handleSignOut()
 }
 ```
-In HomeViewController, I gave detailed comments of the code. Read through HomeViewController before trying to read and understand other files because once you read that file, it will be much easier to read the other files.
+***Note: for each viewControllerSwiftFile, I will give in line comments to explain what each line of code does.***
+***In HomeViewController, I gave detailed comments of the code. Read through HomeViewController before trying to read and understand other files because once you read that file, it will be much easier to read the other files.***
 
 ## Assets.xcassets folder:
 This folder contains all the images for the app. 
