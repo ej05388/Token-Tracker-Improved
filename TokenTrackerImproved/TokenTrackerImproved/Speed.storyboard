@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Speed View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="speedVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SpeedViewController" customModule="TokenTrackerImproved" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Futuristic Background 4" translatesAutoresizingMaskIntoConstraints="NO" id="V1v-ju-NnS" userLabel="Bottom Image">
+                                <rect key="frame" x="0.0" y="44" width="414" height="803"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Futuristic Background 4" translatesAutoresizingMaskIntoConstraints="NO" id="TOf-dM-bOB">
+                                <rect key="frame" x="0.0" y="-9" width="802" height="469"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ayi-4y-4Vp">
+                                <rect key="frame" x="180" y="93" width="159.5" height="65"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="428-2y-4g0">
+                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Your Speed:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfg-7n-W0N">
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOI-ud-xlu">
+                                                <rect key="frame" x="144" y="0.0" width="15.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lsJ-UO-ee3">
+                                        <rect key="frame" x="0.0" y="35" width="159.5" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed Limit:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="164-8R-0ur">
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gO5-Wi-npT">
+                                                <rect key="frame" x="144" y="0.0" width="15.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q19-OK-RKC">
+                                <rect key="frame" x="145" y="264" width="249" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcp-6N-Fio">
+                                <rect key="frame" x="238" y="311" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="refreshAddress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="78j-E8-zEf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White Log Out Icon" translatesAutoresizingMaskIntoConstraints="NO" id="c70-f8-b1s">
+                                <rect key="frame" x="363" y="40" width="31" height="33"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="B8R-5G-RMY"/>
+                                    <constraint firstAttribute="height" constant="33" id="d6N-Fd-KsL"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oX4-fS-EcZ" appends="YES" id="eWk-qc-Gcl"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="TOf-dM-bOB" secondAttribute="bottom" constant="353" id="0V8-hJ-ZrO"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="V1v-ju-NnS" secondAttribute="bottom" constant="-34" id="0dI-qw-342"/>
+                            <constraint firstItem="Q19-OK-RKC" firstAttribute="top" secondItem="ayi-4y-4Vp" secondAttribute="bottom" constant="106" id="4Pf-bP-dtE"/>
+                            <constraint firstItem="Q19-OK-RKC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="145" id="8FT-rs-X8Y"/>
+                            <constraint firstItem="ayi-4y-4Vp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="180" id="8zf-pz-rzE"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="V1v-ju-NnS" secondAttribute="trailing" id="CtH-Fw-5tX"/>
+                            <constraint firstItem="TOf-dM-bOB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="DrB-Gt-yUE"/>
+                            <constraint firstItem="V1v-ju-NnS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="UTf-th-ga5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="c70-f8-b1s" secondAttribute="trailing" constant="20" id="bd1-fy-4q4"/>
+                            <constraint firstItem="c70-f8-b1s" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="363" id="c09-Rq-WQj"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Q19-OK-RKC" secondAttribute="trailing" constant="20" id="cKs-gt-pUY"/>
+                            <constraint firstItem="ayi-4y-4Vp" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="49" id="dn3-WA-jnb"/>
+                            <constraint firstItem="TOf-dM-bOB" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="-9" id="iUQ-8N-X5b"/>
+                            <constraint firstItem="c70-f8-b1s" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="40" id="mtJ-E5-9bU"/>
+                            <constraint firstAttribute="trailing" secondItem="TOf-dM-bOB" secondAttribute="trailing" constant="-388" id="xeS-uo-Bf8"/>
+                            <constraint firstItem="V1v-ju-NnS" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" id="z2f-VH-yO3"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="Q19-OK-RKC" id="lW1-kP-Xz5"/>
+                        <outlet property="currentSpeed" destination="aOI-ud-xlu" id="dY9-vd-GS2"/>
+                        <outlet property="speedLimitLabel" destination="gO5-Wi-npT" id="ey2-YP-b6d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="oX4-fS-EcZ">
+                    <connections>
+                        <action selector="logOutClicked:" destination="Y6W-OH-hqX" id="MXN-G9-egA"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Futuristic Background 4" width="720" height="405"/>
+        <image name="White Log Out Icon" width="100" height="100"/>
+    </resources>
+</document>

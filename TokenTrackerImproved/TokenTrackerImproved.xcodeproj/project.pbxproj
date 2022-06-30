@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5669B366CA56A5C1580555 /* Pods_TokenTrackerImproved.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CEA6DCA4C4E6D33FD01AF7 /* Pods_TokenTrackerImproved.framework */; };
+		FE3E4B3D28636D4700D0009F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E4B3C28636D4600D0009F /* Utilities.swift */; };
+		FE3E4B3F28636D5E00D0009F /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E4B3E28636D5E00D0009F /* SpeedViewController.swift */; };
+		FE3E4B4128636DEA00D0009F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3E4B4028636DEA00D0009F /* CoreLocation.framework */; };
+		FE3E4B4628636FA800D0009F /* Speed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3E4B4528636FA700D0009F /* Speed.storyboard */; };
+		FE69E6A3286375F5006402FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE69E6A2286375F5006402FF /* GoogleService-Info.plist */; };
+		FE88604B286B5B0600855F51 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE88604A286B5B0600855F51 /* FirstViewController.swift */; };
+		FEC1F0B0286229320035B09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F0AF286229320035B09D /* AppDelegate.swift */; };
+		FEC1F0B2286229320035B09D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F0B1286229320035B09D /* SceneDelegate.swift */; };
+		FEC1F0B4286229320035B09D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F0B3286229320035B09D /* ViewController.swift */; };
+		FEC1F0B9286229340035B09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC1F0B8286229340035B09D /* Assets.xcassets */; };
+		FEC1F0BC286229340035B09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC1F0BA286229340035B09D /* LaunchScreen.storyboard */; };
+		FEC1F0C828622C2B0035B09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC1F0C728622C2B0035B09D /* Main.storyboard */; };
+		FEC1F0CC286230B80035B09D /* TitleScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F0CB286230B80035B09D /* TitleScreenViewController.swift */; };
+		FEC1F0D0286231040035B09D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F0CD286231040035B09D /* SignUpViewController.swift */; };
+		FEC1F0D1286231040035B09D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F0CE286231040035B09D /* LoginViewController.swift */; };
+		FEC1F0D2286231040035B09D /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F0CF286231040035B09D /* PasswordViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C2746A588967E84BF35DB5F /* Pods-TokenTrackerImproved.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenTrackerImproved.debug.xcconfig"; path = "Target Support Files/Pods-TokenTrackerImproved/Pods-TokenTrackerImproved.debug.xcconfig"; sourceTree = "<group>"; };
+		46CEA6DCA4C4E6D33FD01AF7 /* Pods_TokenTrackerImproved.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenTrackerImproved.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A04FB7C4CFA0EFA5FF6506 /* Pods-TokenTrackerImproved.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenTrackerImproved.release.xcconfig"; path = "Target Support Files/Pods-TokenTrackerImproved/Pods-TokenTrackerImproved.release.xcconfig"; sourceTree = "<group>"; };
+		FE3E4B3C28636D4600D0009F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../TokenTracker/TokenTracker/Utilities.swift; sourceTree = "<group>"; };
+		FE3E4B3E28636D5E00D0009F /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
+		FE3E4B4028636DEA00D0009F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FE3E4B4528636FA700D0009F /* Speed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Speed.storyboard; sourceTree = "<group>"; };
+		FE69E6A2286375F5006402FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../TokenTracker/TokenTracker/Configure/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE88604A286B5B0600855F51 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FEC1F0AC286229320035B09D /* TokenTrackerImproved.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenTrackerImproved.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC1F0AF286229320035B09D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEC1F0B1286229320035B09D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEC1F0B3286229320035B09D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEC1F0B8286229340035B09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC1F0BB286229340035B09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEC1F0BD286229340035B09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TokenTrackerImproved/Configure/Info.plist; sourceTree = SOURCE_ROOT; };
+		FEC1F0C728622C2B0035B09D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FEC1F0CB286230B80035B09D /* TitleScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScreenViewController.swift; sourceTree = "<group>"; };
+		FEC1F0CD286231040035B09D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FEC1F0CE286231040035B09D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FEC1F0CF286231040035B09D /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC1F0A9286229320035B09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3E4B4128636DEA00D0009F /* CoreLocation.framework in Frameworks */,
+				1E5669B366CA56A5C1580555 /* Pods_TokenTrackerImproved.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768B3DFC27D98EB2CAAD782C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3E4B4028636DEA00D0009F /* CoreLocation.framework */,
+				46CEA6DCA4C4E6D33FD01AF7 /* Pods_TokenTrackerImproved.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F79DAE48125302FB888241D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C2746A588967E84BF35DB5F /* Pods-TokenTrackerImproved.debug.xcconfig */,
+				64A04FB7C4CFA0EFA5FF6506 /* Pods-TokenTrackerImproved.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE3E4B4228636EF600D0009F /* Log In & Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1F0C728622C2B0035B09D /* Main.storyboard */,
+				FE88604A286B5B0600855F51 /* FirstViewController.swift */,
+				FEC1F0CE286231040035B09D /* LoginViewController.swift */,
+				FEC1F0CF286231040035B09D /* PasswordViewController.swift */,
+				FEC1F0CD286231040035B09D /* SignUpViewController.swift */,
+				FEC1F0CB286230B80035B09D /* TitleScreenViewController.swift */,
+			);
+			path = "Log In & Sign In";
+			sourceTree = "<group>";
+		};
+		FE3E4B4428636F6D00D0009F /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				FE69E6A2286375F5006402FF /* GoogleService-Info.plist */,
+				FEC1F0BA286229340035B09D /* LaunchScreen.storyboard */,
+				FEC1F0BD286229340035B09D /* Info.plist */,
+				FEC1F0AF286229320035B09D /* AppDelegate.swift */,
+				FEC1F0B1286229320035B09D /* SceneDelegate.swift */,
+				FEC1F0B3286229320035B09D /* ViewController.swift */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		FEC1F0A3286229320035B09D = {
+			isa = PBXGroup;
+			children = (
+				FEC1F0AE286229320035B09D /* TokenTrackerImproved */,
+				FEC1F0AD286229320035B09D /* Products */,
+				F79DAE48125302FB888241D3 /* Pods */,
+				768B3DFC27D98EB2CAAD782C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC1F0AD286229320035B09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1F0AC286229320035B09D /* TokenTrackerImproved.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC1F0AE286229320035B09D /* TokenTrackerImproved */ = {
+			isa = PBXGroup;
+			children = (
+				FE3E4B4428636F6D00D0009F /* Configure */,
+				FE3E4B4228636EF600D0009F /* Log In & Sign In */,
+				FE3E4B3C28636D4600D0009F /* Utilities.swift */,
+				FEC1F0B8286229340035B09D /* Assets.xcassets */,
+				FE3E4B3E28636D5E00D0009F /* SpeedViewController.swift */,
+				FE3E4B4528636FA700D0009F /* Speed.storyboard */,
+			);
+			path = TokenTrackerImproved;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC1F0AB286229320035B09D /* TokenTrackerImproved */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC1F0C0286229340035B09D /* Build configuration list for PBXNativeTarget "TokenTrackerImproved" */;
+			buildPhases = (
+				88B5F039BCC4FFF750E91019 /* [CP] Check Pods Manifest.lock */,
+				FEC1F0A8286229320035B09D /* Sources */,
+				FEC1F0A9286229320035B09D /* Frameworks */,
+				FEC1F0AA286229320035B09D /* Resources */,
+				B40769673EDD0FAAD99EF768 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokenTrackerImproved;
+			productName = "Token Tracker Improved";
+			productReference = FEC1F0AC286229320035B09D /* TokenTrackerImproved.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC1F0A4286229320035B09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FEC1F0AB286229320035B09D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FEC1F0A7286229320035B09D /* Build configuration list for PBXProject "TokenTrackerImproved" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC1F0A3286229320035B09D;
+			productRefGroup = FEC1F0AD286229320035B09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC1F0AB286229320035B09D /* TokenTrackerImproved */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC1F0AA286229320035B09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3E4B4628636FA800D0009F /* Speed.storyboard in Resources */,
+				FEC1F0BC286229340035B09D /* LaunchScreen.storyboard in Resources */,
+				FE69E6A3286375F5006402FF /* GoogleService-Info.plist in Resources */,
+				FEC1F0C828622C2B0035B09D /* Main.storyboard in Resources */,
+				FEC1F0B9286229340035B09D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88B5F039BCC4FFF750E91019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokenTrackerImproved-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B40769673EDD0FAAD99EF768 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokenTrackerImproved/Pods-TokenTrackerImproved-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokenTrackerImproved/Pods-TokenTrackerImproved-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TokenTrackerImproved/Pods-TokenTrackerImproved-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC1F0A8286229320035B09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC1F0D1286231040035B09D /* LoginViewController.swift in Sources */,
+				FEC1F0B4286229320035B09D /* ViewController.swift in Sources */,
+				FEC1F0B0286229320035B09D /* AppDelegate.swift in Sources */,
+				FEC1F0D2286231040035B09D /* PasswordViewController.swift in Sources */,
+				FEC1F0B2286229320035B09D /* SceneDelegate.swift in Sources */,
+				FE88604B286B5B0600855F51 /* FirstViewController.swift in Sources */,
+				FEC1F0CC286230B80035B09D /* TitleScreenViewController.swift in Sources */,
+				FE3E4B3F28636D5E00D0009F /* SpeedViewController.swift in Sources */,
+				FE3E4B3D28636D4700D0009F /* Utilities.swift in Sources */,
+				FEC1F0D0286231040035B09D /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEC1F0BA286229340035B09D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC1F0BB286229340035B09D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC1F0BE286229340035B09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEC1F0BF286229340035B09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC1F0C1286229340035B09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2746A588967E84BF35DB5F /* Pods-TokenTrackerImproved.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FTTDAG774F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokenTrackerImproved/Configure/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enochjohnson.TokenTrackerImproved;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC1F0C2286229340035B09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A04FB7C4CFA0EFA5FF6506 /* Pods-TokenTrackerImproved.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FTTDAG774F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokenTrackerImproved/Configure/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enochjohnson.TokenTrackerImproved;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC1F0A7286229320035B09D /* Build configuration list for PBXProject "TokenTrackerImproved" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC1F0BE286229340035B09D /* Debug */,
+				FEC1F0BF286229340035B09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC1F0C0286229340035B09D /* Build configuration list for PBXNativeTarget "TokenTrackerImproved" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC1F0C1286229340035B09D /* Debug */,
+				FEC1F0C2286229340035B09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC1F0A4286229320035B09D /* Project object */;
+}
