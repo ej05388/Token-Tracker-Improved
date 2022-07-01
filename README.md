@@ -65,7 +65,8 @@ This folder contains all the images for the app.
 To run this app, you need a Mac application called Xcode. Xcode is an application to create iOS, Mac OS, Watch OS, and TV OS apps.
 
 1. Download this source code
-2. Open the file “TokenTrackerImproved.xcworkspace” which should open in Xcode
-3. On the top left of Xcode, press the play button icon. This will build the app and run the app on Xcode App Simulator. 
+2. unzip "Pods.zip"
+3. Open the file “TokenTrackerImproved.xcworkspace” which should open in Xcode
+4. On the top left of Xcode, press the play button icon. This will build the app and run the app on Xcode App Simulator. 
 
 For more information on this app, feel free to contact me (Enoch Johnson) at enochdavidj@gmail.com
